@@ -1,0 +1,14 @@
+[
+    {
+        "paymentMethodName" : "Virtual Account BCA"
+    },
+    {
+        "paymentMethodName" : "Virtual Account BNI"
+    },
+    {
+        "paymentMethodName" : "Virtual Account BRI"
+    },
+    {
+        "paymentMethodName" : "Virtual Account Mandiri"
+    }
+]

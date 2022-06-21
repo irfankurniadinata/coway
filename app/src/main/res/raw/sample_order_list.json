@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "Ombak Water Purifier",
+        "totalPayment" : "Rp 22.000.000",
+        "image" : "https://www.coway.com.my/files/Products/water-purifier/ombak/coway-ombak-water-purifier-front-view.png",
+        "quantity" : "2",
+        "status" : "Menunggu Pembayaran",
+        "paymentMethod" : "Virtual Account BCA"
+    },
+    {
+        "name" : "Villaem Water Purifier",
+        "totalPayment" : "Rp 20.000.000",
+        "image" : "https://coway.id/data/upload/images/f1c9fded10f377879f5756c6f69265a3.jpg",
+        "quantity" : "1",
+        "status" : "Pesanan Dibatalkan",
+        "paymentMethod" : "Virtual Account BNI"
+    },
+    {
+        "name" : "Core Water Purifier",
+        "totalPayment" : "Rp 17.500.000",
+        "image" : "https://coway.id/data/upload/images/9602a469410312ef9d89b2a379583694.jpg",
+        "quantity" : "3",
+        "status" : "Pesanan Diproses",
+        "paymentMethod" : "Virtual Account Mandiri"
+    }
+]

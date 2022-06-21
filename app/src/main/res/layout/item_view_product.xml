@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View" />
+
+        <variable
+            name="data"
+            type="com.example.coway.data.Product" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:background="@drawable/bg_input_field">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            app:loadImage="@{data.image}"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/clipboard" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="120dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@{data.name}"
+            android:lines="2"
+            android:maxLines="2"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            tools:text="Ombak Water Purifier"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="@{data.discountedPrice}"
+            tools:text="Rp 20.000.000" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_base_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="@{data.basePrice}"
+            android:visibility="@{data.basePrice.equals(data.discountedPrice) ? View.INVISIBLE : View.VISIBLE}"
+            tools:text="Rp 22.500.000" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_see_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="Lihat Detail"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_blue"/>
+
+    </LinearLayout>
+</layout>

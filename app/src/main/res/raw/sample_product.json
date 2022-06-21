@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "Ombak Water Purifier",
+        "basePrice" : "Rp 22.000.000",
+        "discountedPrice" : "Rp 20.000.000",
+        "image" : "https://www.coway.com.my/files/Products/water-purifier/ombak/coway-ombak-water-purifier-front-view.png",
+        "quantity" : 10,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet sapien at lacus pulvinar sodales. Vivamus tempus pharetra tristique. Curabitur commodo volutpat augue, non mattis tortor sollicitudin sit amet."
+    },
+    {
+        "name" : "Villaem Water Purifier",
+        "basePrice" : "Rp 20.000.000",
+        "discountedPrice" : "Rp 20.000.000",
+        "image" : "https://coway.id/data/upload/images/f1c9fded10f377879f5756c6f69265a3.jpg",
+        "quantity" : 5,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet sapien at lacus pulvinar sodales. Vivamus tempus pharetra tristique. Curabitur commodo volutpat augue, non mattis tortor sollicitudin sit amet."
+    },
+    {
+        "name" : "Core Water Purifier",
+        "basePrice" : "Rp 17.500.000",
+        "discountedPrice" : "Rp 17.000.000",
+        "image" : "https://coway.id/data/upload/images/9602a469410312ef9d89b2a379583694.jpg",
+        "quantity" : 8,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet sapien at lacus pulvinar sodales. Vivamus tempus pharetra tristique. Curabitur commodo volutpat augue, non mattis tortor sollicitudin sit amet."
+    },
+    {
+        "name" : "Triple Power Air Purifier",
+        "basePrice" : "Rp 11.500.000",
+        "discountedPrice" : "Rp 10.000.000",
+        "image" : "https://coway.id/data/upload/images/78ee4758bef6a79e41163ed92a8e5902.jpg",
+        "quantity" : 2,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet sapien at lacus pulvinar sodales. Vivamus tempus pharetra tristique. Curabitur commodo volutpat augue, non mattis tortor sollicitudin sit amet."
+    },
+    {
+        "name" : "Storm Air Purifier",
+        "basePrice" : "Rp 9.500.000",
+        "discountedPrice" : "Rp 9.000.000",
+        "image" : "https://cowayjkt.id/wp-content/uploads/2021/10/coway-storm-slider2.png",
+        "quantity" : 4,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet sapien at lacus pulvinar sodales. Vivamus tempus pharetra tristique. Curabitur commodo volutpat augue, non mattis tortor sollicitudin sit amet."
+    },
+    {
+        "name" : "Breeze",
+        "basePrice" : "Rp 8.500.000",
+        "discountedPrice" : "Rp 8.000.000",
+        "image" : "https://cowayjkt.id/wp-content/uploads/2022/02/coway-breeze-air-purifier-front-view.jpg",
+        "quantity" : 3,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet sapien at lacus pulvinar sodales. Vivamus tempus pharetra tristique. Curabitur commodo volutpat augue, non mattis tortor sollicitudin sit amet."
+    }
+]
